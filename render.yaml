@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: clip-ai-studio
+    runtime: docker
+    plan: starter
+    healthCheckPath: /health
